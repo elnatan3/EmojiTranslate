@@ -6,7 +6,7 @@ const EmojiTranslator = () => {
   const [translatedText, setTranslatedText] = useState('');
   const [similarEmojis, setSimilarEmojis] = useState([]);
   const [activeTab, setActiveTab] = useState('Expressions');
-
+  
   const emojiDictionary = {
     hearteyes: '😍',
     starstruck: '🤩',

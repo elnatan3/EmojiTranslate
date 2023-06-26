@@ -198,3 +198,24 @@ background: linear-gradient(135deg, #58cfdc, #6562c8);
     transform: rotateY(0);
   }
 }
+
+@media (max-width: 768px) {
+  .categories {
+    flex-direction: column;
+  }
+
+  .categories.open {
+    margin-bottom: 0; /* Add this line */
+  }
+
+  .categories .category {
+    margin-bottom: 10px;
+  }
+
+  .mobile-menu-toggle {
+    display: block; /* Add this line */
+  }
+}
+
+
+
